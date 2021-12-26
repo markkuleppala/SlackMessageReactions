@@ -14,7 +14,7 @@ def getUsers(client, CHANNEL, TIMESTAMP):
 def getName(user_id):
     # Call the users.info method using the WebClient
     result = client.users_info(user=user_id)
-    # Parse Slack users display name
+    # Parse Slack user's display name
     name = result['user']['profile']['display_name']
     return name
 
