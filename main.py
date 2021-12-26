@@ -1,8 +1,8 @@
 from slack_sdk import WebClient
 
-TIMESTAMP = "" # Timestamp of the message
-CHANNEL = "" # Channel of the message
 TOKEN = "" # User or bot token
+CHANNEL = "" # Channel of the message
+TIMESTAMP = "" # Timestamp of the message
 
 client = WebClient(token=TOKEN)
 
